@@ -1,0 +1,14 @@
+site_name: 我的第一个站点
+
+nav:
+  - mkdocs主页: index.md
+  - 课程笔记:
+      - CN:
+          - 第一章: courses/CN/Intro.md
+          - 第二章: courses/CN/Physical.md
+      - CA: courses/CA.md
+      - OS: courses/OS.md
+  - about: about.md
+
+theme:
+  name: readthedocs
